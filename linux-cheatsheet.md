@@ -16,3 +16,15 @@
 - ls  -l: it gives u to the permissions of the files (like -rw-r--r--)
 - chmod u+x:file means: give the owner permission to run the file
 - In Git Bash on Windows, chmod often does not change the permissions you see with ls -l. That is because Windows stores permissions in a different way than Linux
+
+## grep & piping
+- grep:is used to find a pattern or a word in the file
+- | (pipe):u put output of the first command it becomes the input for the second command
+- grep -i:means ignoring upper/lowercase like APPLE,apple,apple pie
+- grep -n:shows the number of each matching line
+- grep -v:means inverting the search so u will see different output like banana and cherry
+- grep -c:counts how many lines match
+- My mistake today:i put ls on one line, and grep thought ls was a file name.
+
+
+  
