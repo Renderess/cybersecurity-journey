@@ -26,5 +26,17 @@
 - grep -c:counts how many lines match
 - My mistake today:i put ls on one line, and grep thought ls was a file name.
 
+## Finding files
+- find WHERE -name "WHAT": WHERE is the folder to search in, WHAT is the file name or pattern to look for
+- find ~/day7 -name "notes.txt":with this command u can find a file by name.
+- find ~/day7 -name "*.txt":with this command u can find .txt file.
+- find ~/day7 -type d: with this command u can only find the folders.
+- locate notes.txt:looks in that list and it is very fast.
+- with updatedb this command the list get refreshed if the list is too old a new file won't show up.
+- whatis locate:the command show one line "command not found" because Git Bash is not a full Linux system.
+- my mistakes today: so my first is extra dot after the closing quote.
+- and my second mistake is typing space between docs/ report.txt.
+- and third mistake typing -name -type d together.
+-and my fourth mistake Forgetting -name before "*.txt"
 
   
