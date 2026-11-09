@@ -39,4 +39,11 @@
 - and third mistake typing -name -type d together.
 -and my fourth mistake Forgetting -name before "*.txt"
 
-  
+## System & kernel information
+-uname -a: this command givs as all informasion so we get evrything in singol line.
+-uname -r: this command givs u yuor kernel vrsion.
+-uname -s: this command givs u a system name in this case i have MINGW64_NT-10.0-26200.because i use git bash on windows on linux it should be diffrent.
+-uname -m: this command show u your computer bits
+-cat /etc/os-release: on git bash this command didn't work it shows “No such file or directory” because git bash is not a real linux Git Bash runs on Windows and there is no distribution on real linux it will show u distribution (Ubuntu, Kali, Debian...).
+-mistakes today: my first mistake is thet i write uname wrong so i write unmae.
+-my second is thet i put sepce between cd day 8.
