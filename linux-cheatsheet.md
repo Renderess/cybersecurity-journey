@@ -47,3 +47,8 @@
 -cat /etc/os-release: on git bash this command didn't work it shows “No such file or directory” because git bash is not a real linux Git Bash runs on Windows and there is no distribution on real linux it will show u distribution (Ubuntu, Kali, Debian...).
 -mistakes today: my first mistake is thet i write uname wrong so i write unmae.
 -my second is thet i put sepce between cd day 8.
+
+ ## Bandit Levels 0-2
+ -cat ./-: this is used to open a file name dash.
+ -Backslash \: this is used to keep space inside a file.
+ -my mistake: I typed cat ./-- and it didn't work 
