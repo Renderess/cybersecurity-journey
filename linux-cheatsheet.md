@@ -51,4 +51,13 @@
  ## Bandit Levels 0-2
  -cat ./-: this is used to open a file name dash.
  -Backslash \: this is used to keep space inside a file.
- -my mistake: I typed cat ./-- and it didn't work 
+ -my mistake: I typed cat ./-- and it didn't work
+ 
+## Bandit Level 3 - Hidden files
+-A hidden file is a file thet starts whit a dot (.) and normal ls dose not show it.
+-ls -a show it becouse it means all
+-mistakes today: cat inhere so i was already inside the folder but i typed second time and it showed no such file or directory.  
+
+
+
+
