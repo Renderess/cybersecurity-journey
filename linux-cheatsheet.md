@@ -56,8 +56,11 @@
 ## Bandit Level 3 - Hidden files
 -A hidden file is a file thet starts whit a dot (.) and normal ls dose not show it.
 -ls -a show it becouse it means all
--mistakes today: cat inhere so i was already inside the folder but i typed second time and it showed no such file or directory.  
+-mistakes today: cat inhere so i was already inside the folder but i typed second time and it showed no such file or directory. 
 
-
+## Bandit Level 4 - Finding the readable file
+-file ./* this command is used to find the right file becouse ther will some junk files.
+* this means all so if want to see all the files u use this *
+-mistake today: I typed done in the terminal, but the terminal only understands commands.
 
 
