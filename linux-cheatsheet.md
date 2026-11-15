@@ -63,4 +63,11 @@
 * this means all so if want to see all the files u use this *
 -mistake today: I typed done in the terminal, but the terminal only understands commands.
 
+## Bandit Level 5 - Finding a file by size
+-find . -type f -size 1033c : -type f means that type u are looking for a file.
+-and the -size means the size of the file.
+-c: means bytes.
+-.: means start looking here.
+-mistake today: my first mistake thet i typed myabehere00 insted of maybehere00.
+
 
