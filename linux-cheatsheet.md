@@ -70,4 +70,9 @@
 -.: means start looking here.
 -mistake today: my first mistake thet i typed myabehere00 insted of maybehere00.
 
-
+## Bandit Level 6 - Finding a file by owner, group and size
+-find /: means searching every file on server.
+-user: this means the users owns the file.
+-group: this means the group owns the file.
+-size 33c: this means the size of the file in this case 33 bytes.
+-2>/dev/null: the means hide the Permission denied lines.
