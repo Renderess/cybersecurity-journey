@@ -76,3 +76,5 @@
 -group: this means the group owns the file.
 -size 33c: this means the size of the file in this case 33 bytes.
 -2>/dev/null: the means hide the Permission denied lines.
+## Bandit Level 7 - Finding a word with grep
+-i used grep to find word inside a file so i used grep millionth data.txt
