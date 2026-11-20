@@ -76,5 +76,16 @@
 -group: this means the group owns the file.
 -size 33c: this means the size of the file in this case 33 bytes.
 -2>/dev/null: the means hide the Permission denied lines.
+
 ## Bandit Level 7 - Finding a word with grep
 -i used grep to find word inside a file so i used grep millionth data.txt
+
+## Bandit Level 8 - Finding the unique line
+-sort:puts the lines in order, so the same lines sit next to each other.
+-uniq -u:shows only the line that appears one time.
+-|:sends the result of the first command into the next one.
+-sort data.txt | uniq -u:to find the one unique line.
+
+##  Bandit Level 9 - Finding readable text
+-strings:shows only the human-readable parts of a file and hides the garbage.
+-strings data.txt | grep "==": this command is used find the right password for thet i used grep "=="so this keeps only the lines that contain == and also i used | to sends that text into the next command.
