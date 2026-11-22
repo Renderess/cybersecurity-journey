@@ -89,3 +89,9 @@
 ##  Bandit Level 9 - Finding readable text
 -strings:shows only the human-readable parts of a file and hides the garbage.
 -strings data.txt | grep "==": this command is used find the right password for thet i used grep "=="so this keeps only the lines that contain == and also i used | to sends that text into the next command.
+
+## Bandit Level 10 - Decoding base64
+-base64:is a way to write text using only letters and numbers.
+- base64 -d data.txt: it means decode the file in this case data.txt.
+- no mistake today.
+ 
