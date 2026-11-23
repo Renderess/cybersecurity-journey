@@ -95,3 +95,7 @@
 - base64 -d data.txt: it means decode the file in this case data.txt.
 - no mistake today.
  
+## Bandit Level 11 - Decoding ROT13
+I used cat to read the file, then | sent it to tr, and tr changed every letter by 13 places.
+ROT13:means each letter moves 13 places.
+-cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m':It changes letters, and you give it two lists
