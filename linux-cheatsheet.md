@@ -99,3 +99,10 @@
 I used cat to read the file, then | sent it to tr, and tr changed every letter by 13 places.
 ROT13:means each letter moves 13 places.
 -cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m':It changes letters, and you give it two lists
+
+## Bandit Level 12 - Unzipping many layers
+-xxd -r:turns the picture back into the real file.
+-gzip:(a zipped file): rename it to end with .gz, then run gzip -d.
+-bzip2:(another zip type): rename it to end with .bz2, then run bzip2 -d.
+-tar:(a box with files inside): no rename needed. Run tar xf and a new file comes out.
+-gzip and bzip2 only work if the file name ends with .gz or .bz2.
