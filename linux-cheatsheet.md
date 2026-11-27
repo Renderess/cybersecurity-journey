@@ -106,3 +106,10 @@ ROT13:means each letter moves 13 places.
 -bzip2:(another zip type): rename it to end with .bz2, then run bzip2 -d.
 -tar:(a box with files inside): no rename needed. Run tar xf and a new file comes out.
 -gzip and bzip2 only work if the file name ends with .gz or .bz2.
+
+## Bandit Level 13 - SSH key login
+-private key:is the key file. It lets us log in to the next level without a password.
+-scp:scp is like copy and paste between two computers.
+-P:the port number (the "door" of the server)
+-ssh:lets you log in to another computer.
+-i: it means identity it tells ssh to use my key file instead of a password.
